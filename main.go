@@ -15,7 +15,7 @@ import (
 
 const tiledir = "Kiev_Adm"
 const dbpath = "Kiev_Adm.db"
-const scheme = "zxy" // zyx or zxy
+const scheme = "zxy"
 
 func main() {
 	database, _ := sql.Open("sqlite3", dbpath)
